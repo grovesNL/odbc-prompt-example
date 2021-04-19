@@ -1,0 +1,10 @@
+[package]
+name = "odbc-prompt-example"
+version = "0.1.0"
+authors = ["Joshua Groves <josh@joshgroves.com>"]
+edition = "2018"
+
+[dependencies]
+winit = "0.24"
+#odbc-api = { path = "../odbc-api/odbc-api" }
+odbc-api = { git = "https://github.com/grovesNL/odbc-api", branch = "driver-connect" }
